@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Chord Chart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=M+PLUS+Rounded+1c:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div id="wpHeader">
+    <header>
+      <h1>Key Chorde Chart</h1>
+      <div id="wpSelect">
+        <div id="lySelect">
+          <aside>
+            <p>key :
+            <select name="key">
+              <option value="key0">degree</option>
+              <option value="key1">C</option>
+              <option value="key2">C♯</option>
+              <option value="key3">D♭</option>
+              <option value="key4">D</option>
+              <option value="key5">D♯(E♭)</option>
+              <option value="key6">E♭</option>
+              <option value="key7">E</option>
+              <option value="key8">F</option>
+              <option value="key9">F♯</option>
+              <option value="key10">G♭</option>
+              <option value="key11">G</option>
+              <option value="key12">G♯(A♭)</option>
+              <option value="key13">A♭</option>
+              <option value="key14">A</option>
+              <option value="key15">A♯(B♭)</option>
+              <option value="key16">B♭</option>
+              <option value="key17">B</option>
+              <option value="key18">C♭</option>
+            </select>
+          </p>
+          </aside>
+        </div><!-- lySelectEnd -->
+      </div><!-- wpSelectEnd -->
+    </header>
+  </div><!-- wpheaderEnd -->
+  <div id="wpAll">
+
+    <main>
+      <div id="reset">
+        <!-- ここからメジャー -->
+        <table class="tableMaj">
+          <tr>
+            <th class="widthCntl">Major</th>
+            <th class="widthCntl"> degree</th>
+            <th>Ⅰ</th>
+            <th>Ⅱ</th>
+            <th>Ⅲ</th>
+            <th>Ⅳ</th>
+            <th>Ⅴ</th>
+            <th>Ⅵ</th>
+            <th>Ⅶ</th>
+          </tr>
+          <tr>
+            <th rowspan="8">Major<br>scale</th>
+            <th>Scale note</th>
+            <td>Ⅰ</td>
+            <td id>Ⅱ</td>
+            <td id>Ⅲ</td>
+            <td id>Ⅳ</td>
+            <td id>Ⅴ</td>
+            <td id>Ⅵ</td>
+            <td id>Ⅶ</td>
+          </tr>
+          <tr>
+            <th>Triad</th>
+            <td>Ⅰ</td>
+            <td>Ⅱ</td>
+            <td>Ⅲm</td>
+            <td>Ⅳ</td>
+            <td>Ⅴ</td>
+            <td>Ⅵm</td>
+            <td>Ⅶdim</td>
+          </tr>
+          <tr>
+            <th>Tetrad</th>
+            <td>ⅠM7</td>
+            <td>Ⅱm7</td>
+            <td>Ⅲm7</td>
+            <td>ⅣM7</td>
+            <td>Ⅴ7</td>
+            <td>Ⅵm7</td>
+            <td>Ⅶm7(♭5)</td>
+          </tr>
+          <tr>
+            <th>Secondary<br>dominant</th>
+            <td></td>
+            <td>Ⅵ7</td>
+            <td>Ⅶ7</td>
+            <td>Ⅰ7</td>
+            <td>Ⅱ7</td>
+            <td>Ⅲ7</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Substitute<br>dominant</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ⅱ♭7</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="2">Tention<br>note</th>
+            <td>9 , 13</td>
+            <td>9 , 11</td>
+            <td>11</td>
+            <td>9 , ♯11 , 13</td>
+            <td>9 , 13</td>
+            <td>9 , 11 ,</td>
+            <td>11 , ♭13</td>
+          </tr>
+          <tr>
+            <td>Ⅱ , Ⅵ</td>
+            <td>Ⅲ , Ⅴ</td>
+            <td>Ⅵ</td>
+            <td>Ⅴ , Ⅶ , Ⅱ</td>
+            <td>Ⅵ , Ⅲ</td>
+            <td>Ⅶ , Ⅱ</td>
+            <td>Ⅲ , Ⅴ</td>
+          </tr>
+          <tr>
+            <th>Avoid<br>note</th>
+            <td>Ⅳ</td>
+            <td>Ⅶ</td>
+            <td>Ⅳ , Ⅰ</td>
+            <td></td>
+            <td>Ⅰ</td>
+            <td>Ⅳ</td>
+            <td>Ⅰ</td>
+          </tr>
+        </table>
+
+        <!-- ここからマイナー -->
+        <table class="tableMin">
+          <tr>
+            <th class="widthCntl">minor</th>
+            <th class="widthCntl">degree</th>
+            <th>Ⅰ</th>
+            <th>Ⅱ</th>
+            <th>Ⅲ</th>
+            <th>Ⅳ</th>
+            <th>Ⅴ</th>
+            <th>Ⅵ</th>
+            <th>Ⅶ</th>
+          </tr>
+          <tr>
+            <th rowspan="2">Natural<br>minor<br>scale</th>
+            <th>Scale<br>note</th>
+            <td>Ⅰ</td>
+            <td>Ⅱ</td>
+            <td>Ⅲ♭</td>
+            <td>Ⅳ</td>
+            <td>Ⅴ</td>
+            <td>Ⅵ♭</td>
+            <td>Ⅶ♭</td>
+          </tr>
+          <tr>
+            <th>Tetrad</th>
+            <td>Ⅰm7</td>
+            <td>Ⅱm7(♭5)</td>
+            <td>Ⅲ♭M7</td>
+            <td>Ⅳm7</td>
+            <td>Ⅴm7</td>
+            <td>Ⅵ♭M7</td>
+            <td>Ⅶ♭7</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Harmonic<br>minor<br>scale</th>
+            <th>Scale<br>note</th>
+            <td>Ⅰ</td>
+            <td>Ⅱ</td>
+            <td>Ⅲ♭</td>
+            <td>Ⅳ</td>
+            <td>Ⅴ</td>
+            <td>Ⅵ♭</td>
+            <td>Ⅶ</td>
+          </tr>
+          <tr>
+            <th>Tetrad</th>
+            <td>ⅠmM7</td>
+            <td>Ⅱm7(♭5)</td>
+            <td>Ⅲ♭augM7</td>
+            <td>Ⅳm7</td>
+            <td>Ⅴ7</td>
+            <td>Ⅵ♭M7</td>
+            <td>Ⅶdim7</td>
+          </tr>
+          <th rowspan="2">Melodic<br>minor<br>scale</th>
+          <th>Scale<br>note</th>
+          <td>Ⅰ</td>
+          <td>Ⅱ</td>
+          <td>Ⅲ♭</td>
+          <td>Ⅳ</td>
+          <td>Ⅴ</td>
+          <td>Ⅵ</td>
+          <td>Ⅶ</td>
+          </tr>
+          <tr>
+            <th>Tetrad</th>
+            <td>ⅠmM7</td>
+            <td>Ⅱm7</td>
+            <td>Ⅲ♭augM7</td>
+            <td>Ⅳ7</td>
+            <td>Ⅴ7</td>
+            <td>ⅥM7</td>
+            <td>Ⅶm7(♭5)</td>
+          </tr>
+        </table>
+        <!-- ここからチャーチモード -->
+        <table class="tableCmode">
+          <tr>
+            <th class="widthCntl">Church<br>mode</th>
+            <th class="widthCntl">degree</th>
+            <th>Ⅰ</th>
+            <th>Ⅱ</th>
+            <th>Ⅲ</th>
+            <th>Ⅳ</th>
+            <th>Ⅴ</th>
+            <th>Ⅵ</th>
+            <th>Ⅶ</th>
+          </tr>
+          <th class="widthCntl" colspan="2">Ionian<br>(Major)</th>
+          <td>ⅠM7</td>
+          <td>Ⅱm7</td>
+          <td>Ⅲm7</td>
+          <td>ⅣM7</td>
+          <td>Ⅴ7</td>
+          <td>Ⅵm7</td>
+          <td>Ⅶm7(♭5)</td>
+          </tr>
+          <tr>
+            <th colspan="2">Dorian</th>
+            <td>Ⅰm7</td>
+            <td>Ⅱm7</td>
+            <td>Ⅲ♭M7</td>
+            <td>Ⅳ7</td>
+            <td>Ⅴm7</td>
+            <td>Ⅵm7(♭5)</td>
+            <td>Ⅶ♭M7*</td>
+          </tr>
+          <tr>
+            <th colspan="2">Phrygian</th>
+            <td>Ⅰm7</td>
+            <td>Ⅱ♭M7*</td>
+            <td>Ⅲ♭7</td>
+            <td>Ⅳm7</td>
+            <td>Ⅴm7(♭5)</td>
+            <td>Ⅵ♭M7</td>
+            <td>Ⅶ♭m7</td>
+          </tr>
+          <tr>
+            <th colspan="2">Lydian</th>
+            <td>ⅠM7</td>
+            <td>Ⅱ7</td>
+            <td>Ⅲm7</td>
+            <td>Ⅳ♯m7(♭5)*</td>
+            <td>ⅤM7</td>
+            <td>Ⅵm7</td>
+            <td>Ⅶm7</td>
+          </tr>
+          <tr>
+            <th colspan="2">Mixolydian</th>
+            <td>Ⅰ7</td>
+            <td>Ⅱm7</td>
+            <td>Ⅲm7(♭5)</td>
+            <td>ⅣM7</td>
+            <td>Ⅴm7</td>
+            <td>Ⅵm7</td>
+            <td>Ⅶ♭M7*</td>
+          </tr>
+          <tr>
+            <th colspan="2">Aeolian<br>(N minor)</th>
+            <td>Ⅰm7</td>
+            <td>Ⅱm7(♭5)</td>
+            <td>Ⅲ♭M7</td>
+            <td>Ⅳm7</td>
+            <td>Ⅴm7</td>
+            <td>Ⅵ♭M7</td>
+            <td>Ⅶ♭7</td>
+          </tr>
+          <tr>
+            <th colspan="2">Locrian</th>
+            <td>Ⅰm7(♭5)</td>
+            <td>Ⅱ♭M7</td>
+            <td>Ⅲ♭m7</td>
+            <td>Ⅳm7</td>
+            <td>Ⅴ♭M7</td>
+            <td>Ⅵ♭7</td>
+            <td>Ⅶ♭m7</td>
+          </tr>
+        </table>
+      </div><!-- id resetEnd -->
+      <div id="fifthCircle">
+        <img src="img/5doken.png" alt="fifthCircle">
+        <img src="img/waku.png" alt="枠" id="waku">
+      </div><!-- fifthCyrcleEnd -->
+
+    </main>
+  </div><!-- id wpAll End -->
+  <footer>
+    <small>©ohyamaru</small>
+  </footer>
+</body>
+
+</html>
